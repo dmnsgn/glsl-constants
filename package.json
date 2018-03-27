@@ -1,0 +1,27 @@
+{
+  "name": "glsl-constants",
+  "version": "1.0.0",
+  "description": "Common GLSL math constants (with 11 decimals).",
+  "main": "PI.glsl",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damien Seguin <https://twitter.com/dmnsgn>",
+  "homepage": "https://github.com/dmnsgn/glsl-constants",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmnsgn/glsl-constants"
+  },
+  "keywords": [
+    "glsl",
+    "math",
+    "constants",
+    "glslify",
+    "webgl",
+    "shader"
+  ],
+  "issues": {
+    "url": "https://github.com/dmnsgn/glsl-constants/issues"
+  },
+  "license": "MIT"
+}
