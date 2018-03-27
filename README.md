@@ -21,7 +21,7 @@ npm install glsl-constants
 
 // ...
 
-#pragma glslify: rotate = require(glsl-constants)
+#pragma glslify: rotate = require(glsl-rotate)
 
 void main() {
 	vec2 p2d = vec2(1.0, 0.0);
