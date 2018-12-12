@@ -8,7 +8,7 @@ Common GLSL math constants (with 11 decimals).
 npm install glsl-constants
 ```
 
-[![NPM](https://nodei.co/npm/glsl-constants.png)](https://nodei.co/npm/glsl-constants/)
+[![NPM](https://nodei.co/npm/glsl-constants.png)](https://nodei.co/npm/glsl-constants/) [![Greenkeeper badge](https://badges.greenkeeper.io/dmnsgn/glsl-constants.svg)](https://greenkeeper.io/)
 
 ## Usage
 
