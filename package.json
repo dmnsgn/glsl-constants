@@ -1,17 +1,7 @@
 {
   "name": "glsl-constants",
   "version": "1.0.0",
-  "description": "Common GLSL math constants (with 11 decimals).",
-  "main": "PI.glsl",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Damien Seguin <https://twitter.com/dmnsgn>",
-  "homepage": "https://github.com/dmnsgn/glsl-constants",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dmnsgn/glsl-constants"
-  },
+  "description": "Common GLSL math constants (with 11 decimals) available both as ES modules strings and as GLSL files for use with glslify.",
   "keywords": [
     "glsl",
     "math",
@@ -20,8 +10,38 @@
     "webgl",
     "shader"
   ],
-  "issues": {
-    "url": "https://github.com/dmnsgn/glsl-constants/issues"
+  "homepage": "https://github.com/dmnsgn/glsl-constants",
+  "bugs": "https://github.com/dmnsgn/glsl-constants/issues",
+  "repository": "dmnsgn/glsl-constants",
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://paypal.me/dmnsgn"
+    },
+    {
+      "type": "individual",
+      "url": "https://commerce.coinbase.com/checkout/56cbdf28-e323-48d8-9c98-7019e72c97f3"
+    }
+  ],
+  "license": "MIT",
+  "author": "Damien Seguin (https://github.com/dmnsgn)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": "./index.js",
+  "main": "index.js",
+  "types": "types/index.d.ts",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=7.0.0"
   },
-  "license": "MIT"
+  "scripts": {
+    "test": "glslify test/index.glsl"
+  },
+  "devDependencies": {
+    "glsl-rotate": "^1.1.0",
+    "glslify": "^7.1.1"
+  },
+  "snowdev": {
+    "dependencies": []
+  }
 }
