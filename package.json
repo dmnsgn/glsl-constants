@@ -34,7 +34,7 @@
     "test": "glslify test/index.glsl"
   },
   "devDependencies": {
-    "glsl-rotate": "^1.1.0",
+    "glsl-rotate": "^2.0.0",
     "glslify": "^7.1.1"
   },
   "engines": {

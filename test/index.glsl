@@ -15,7 +15,7 @@ vec3 toGamma(vec3 v) {
   return pow(v, vec3(RECIPROCAL_GAMMA));
 }
 
-#pragma glslify: rotate = require(glsl-rotate)
+#pragma glslify: rotate = require(glsl-rotate/rotate)
 
 void main() {
   vec2 p2d = vec2(1.0, 0.0);
