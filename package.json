@@ -1,6 +1,6 @@
 {
   "name": "glsl-constants",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Common GLSL math constants (with 11 decimals) available both as ES modules strings and as GLSL files for use with glslify.",
   "keywords": [
     "glsl",
@@ -12,7 +12,10 @@
   ],
   "homepage": "https://github.com/dmnsgn/glsl-constants",
   "bugs": "https://github.com/dmnsgn/glsl-constants/issues",
-  "repository": "dmnsgn/glsl-constants",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnsgn/glsl-constants.git"
+  },
   "funding": [
     {
       "type": "individual",
